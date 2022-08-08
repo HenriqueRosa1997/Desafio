@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da)
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 10px;
+}
+#divRelogio{
+    font-size: 125px;
+    color: white;
+}
+
